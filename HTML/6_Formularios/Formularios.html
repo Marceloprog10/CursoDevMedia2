@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Pizzaria</title>
+    <meta charset="UTF8">
+</head>
+<body>
+    <h1>Crie sua Conta do Hello Pizza</h1>
+    <form method="GET" action="http://arquivo.devmedia.com.br/projeto/requisicao.php">
+    <form action="login.php" method="GET">
+        
+
+
+        <fieldset>
+            <legend>Conta</legend>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="edtEmail" required>            
+            </div>
+
+            <div>
+                <label>Senha:</label>
+                <input type="password" name="edtSenha" required>
+            </div>            
+        </fieldset>
+
+        <fieldset>
+            <legend>Pessoal</legend>
+            <div>
+                <label>Nome:</label>
+                <input type="text" name="edtNome" placeholder="Ex: Marcelo" required autocomplete> 
+            </div>
+
+            <div>
+                <label>Telefone:</label>
+                <input type="text" name="edtTelefone" placeholder="Ex: (99) 99999-9999" 
+                  pattern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}" maxlength="15">
+           </div>
+          
+           <div>
+                <label>Sexo:</label>
+                <input type="radio" name="rgSexo" value="Masculino" checked>                     
+              <label>Masculino</label>
+
+                <input type="radio" name="rgSexo" value="Feminino">
+                <label>Feminino</label>
+           </div>
+
+            <div>
+                <label>Data de nascimento:</label>
+               <input type="Date" name="edtDataNascimento">
+           </div>
+
+            <div>
+                <label>Foto do perfil</label>
+                <input type="file" name="edtFotoPerfil" accept="image/*">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <div>
+                <label>Rua:</label>
+                <input type="text" name="edtRua">
+            </div>
+
+            <div>
+                <label>Número:</label>
+                <input type="number" name="edtNumero" min="1" max="9999">
+            </div>        
+
+            <div>
+                <label>Complemento:</label>
+                <input type="text" name="edtComplemento">
+            </div>
+
+            <div>
+                <label>Cidade:</label>
+                <input type="text" name="edtCidade">
+            </div>
+
+            <div>
+               <label>Estado:</label>
+               <select name="cbEstado">
+                    <option value="PR">Parana</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </select>                    
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Anúncio</legend>
+            <div>            
+                <p>Como você conheceu a pizzaria:</p>            
+                <textarea name="mmAnuncio" maxlength="256" placeholder="digite aqui..."
+                rows="10" cols="40"></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" name="chkReceberOfertas" checked>
+                <label>Desejo receber as ofertas por email:</label>            
+            </div>
+        </fieldset>
+
+        <!--Duas formas de fazer o botáo Enviar, é a mesma coisa tanto em comportamento como no visual-->
+        <!--<input type="submit" name="btnEnviar" value="Enviar">-->
+        <button type="submit" name="btnEnviar">Enviar</button>
+    </form>
+    
+</body>
+</html>
+
+

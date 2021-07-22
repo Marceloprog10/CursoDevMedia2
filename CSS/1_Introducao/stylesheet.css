@@ -1,0 +1,17 @@
+h1 {
+    font-family: Arial;
+    color: #333;
+}
+
+#paragrafo1 {
+    font-weight: bold;
+    font-size: 14px;    
+    color: rgb(153, 6, 6);
+}
+
+blockquote {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: justify;
+    margin: 4%;
+    color: rgba(59, 114, 1, 0.5);
+}

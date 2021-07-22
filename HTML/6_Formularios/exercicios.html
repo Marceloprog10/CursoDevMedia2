@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo</title>
+</head>
+<body>
+    <form method="salvar_dados.php" action="post">
+       <input type="text" name="nome" placeholder="Digite aqui">
+       <input type="submit" value="Assinar">
+    </form>
+
+<p>
+  Seja bem-vindo(a) a GamesBox! A Maior loja de video games do mundo!
+  Para ver nossas promoções clique 
+  <a href="#">nesse link</a>
+</p>
+
+<h2>Teste metodo</h2>
+<form method="POST" action="dados.php">
+    <label>nome: </label>
+    <input type="text" name="nome" />
+    
+    <label>sobrenome: </label>
+    <input type="text" name="sobrenome" />
+
+    <label>Escolha um estado: </label>
+    <select name="estado">        
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="SP">São Paulo</option>
+		<option value="MG">Minas Gerais</option>
+	</select>    
+	<input type="submit" name="enviar" />
+</form>
+
+<!--acertouuuuuuuu-->
+<form method="POST" action="perfil.php">
+    <label>Nome: </label>
+    <input name="nome" type="text" /><br>    
+    <label>Sobrenome: </label>
+    <input name="sobrenome" type="text" /><br>
+    <label>Sobre mim: </label>
+    <textarea name="sobremim"></textarea><br>
+    <input type="submit" name="enviar" />
+</form>
+
+<!--acertouuuuu-->
+<form method="GET" action="login.php">
+    <label>Login: </label>
+    <input name="login" type="text" /><br>
+    <label>Senha: </label>
+    <input name="senha" type="password" /><br>
+    <input type="submit" name="enviar" />
+</form>
+
+<!--acertouuuuuu-->
+<form method="POST" action="cadastro.php">
+    <input type="text" name="nome"/>
+    <input type="text" name="sobrenome"/>
+    <input type="submit" name="enviar"/>
+</form>
+
+<h3>MARCELO</h3>
+
+<form method="POST" action="cadastro.php">
+    <label>Nome:</label> 
+    <input type="text" name="nome">
+    
+    <label>Senha:</label> 
+    <input type="password" name="senha">
+    
+    <label>Mora no Brasil:</label>
+    <select name="moraNoBrasil">
+        <option value="S">Sim</option>
+        <option value="N">Não</option>    
+	</select>
+</form>
+
+</body>

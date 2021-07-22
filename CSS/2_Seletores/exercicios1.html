@@ -1,0 +1,87 @@
+<!--Seletores por atribuitos
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Seletores CSS por atributo</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="seletores.css">    
+    <style>
+        div{border:solid 1px;}
+        #cabecalho{height:50px;}
+        #corpo{height:300px;}
+        #rodape{height:50px;}
+    </style>
+    
+</head>
+<body>    
+    <div id="cabecalho">cabecalho</div>
+    <div id="corpo">
+        <div id="parte_superior">parte superior</div>
+        <div id="parte_inferior">parte inferior</div>
+    </div>
+    <div id="rodape">rodape</div>
+</body>
+</html>
+---------------------------------------------------
+-->
+
+<!--Seletores CSS por posição
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="seletores.css"/>
+        <style>
+            div{border:solid 1px; height:100px;}
+        </style>
+    </head>
+    <body>
+        <div id="barra_1"></div>
+        <div id="barra_2">
+            <p>Paragrafo 1</p>
+            <p>Paragrafo 2</p>
+        </div>
+        <div id="barra_3">
+            <ul>
+                <li>item 1</li>
+                <li>item 1</li>
+                <li>item 1</li>
+            </ul>
+        </div>
+        <div id="barra_4">
+            <p>Paragrafo 3</p>
+        </div>
+    </body>
+</html>
+-->
+
+<!--Seletores CSS por estado-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="seletores.css"/>
+        <style>
+            div{border:solid 1px; height:100px;}
+        </style>
+    </head>
+    <body>
+        <h1>Selecione esse texto</h1>
+        <p><a href="#Texto1">Link para o Texto 1</a></p>
+        <p><a href="#Texto2">Link para o Texto 2</a></p>
+        <div>
+            <p id="Texto1">Esse e o TEXTO 1</p>
+            <p id="Texto2">Esse e o TEXTO 2</p>
+        </div>
+        <div id="divVazia"></div>
+        <div>
+            <span>Span antes do input</span><br/>
+            <input type="checkbox" checked="checked" value="Opcao 1">Opcao 1
+            <input type="checkbox"  value="Opcao 2">Opcao 2 
+            <p>
+                <input type="text" disabled="disabled" value="desabilitado"/>
+                <input type="text" value="habilitado"/><br/>
+            </p>
+            <span>Span apos o input</span>
+        </div>
+    </body>
+</html>

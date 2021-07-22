@@ -1,0 +1,16 @@
+
+#rodape{
+    height: 70px;  
+    width: 100%;  
+}
+
+#artigo .conteudo p{
+   color: blue;
+   margin: 25px;
+   text-decoration: none;
+}
+
+option{
+    color: yellow;
+    font-size: 20px;    
+}

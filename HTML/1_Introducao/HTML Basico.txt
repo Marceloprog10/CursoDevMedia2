@@ -1,0 +1,47 @@
+
+CURSO HTML 10/04/21
+Carga horária 13h
+https://www.devmedia.com.br/curso/curso-de-html-basico/371
+
+
+Curso de HTML Básico
+O HTML é uma linguagem de marcação utilizada para a criação de páginas na web. Sua principal finalidade é estruturar o conteúdo disponibilizado em uma página. O Objetivo deste curso é guiar você pelos principais elementos do HTML na prática. O que vamos ver durante o curso é que o HTML 5 está fortemente relacionado a web semântica, ou seja, o conteúdo das páginas HTML 5 utilizam novos elementos que descrevem com muito mais precisão e organização o conteúdo das páginas HTML.
+
+Aulas
+1. Introdução
+
+2. HTML? Onde estou?
+
+3. Preparando o Ambiente
+
+4. A função do HTML e de seus elementos
+
+5. Elementos estruturais
+
+6. Textos e formatação
+   <em>     (Texto Enfático)
+   <strong> (Texto Importante)
+   <mark>   (Texto em destaque)
+   <cite>   (Referência a um título de um trabalho)
+   <dfn>    (Um termo a ser definido)
+
+7. Listas
+   <ul> Padrão Itens
+   <ol> Padrão numérico sequencial
+   <ol type=”1”> Ordem numérica
+   <ol type=”A”> Ordem Alfabética em caixa alta
+   <ol type=”a”> Ordem alfabética em caixa baixa
+   <ol type=”I”> Números romanos
+   <ol type=”i”> Números romanos em caixa baixa
+
+8. Tabelas
+
+9. Links
+
+10. Imagens
+
+11. Introdução aos Formulários HTML
+
+12. Criando Formulários HTML
+
+13. Enviando Formulários HTML para um servidor

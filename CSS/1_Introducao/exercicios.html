@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Corres em CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">        
+    <style>
+
+        .pai .filho {
+            color: blue;
+        }
+
+        #paragrafo {
+            font-style: italic;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        h1 { 
+            
+            font-weight: normal;
+        }
+        th {
+            color:blue;
+        }
+
+        td {
+            color: green;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        p {
+            font-weight: bold;
+            font-family: "Arial", sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="pai">
+        <p>Texto principal</p>
+    
+        <div class="filho">
+            <p>Texto secundário</p>
+        </div>
+    </div>
+
+    <p id="paragrafo">Primeiro parágrafo do teste seus conhecimentos</p>
+
+    <h1>Titulo</h1>
+    <table>
+        <caption>Tabela dos carros</caption>
+        <thead>
+            <th>Fabricante</th>
+            <th>Modelo</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="fabricante">Mitsubishi</td>
+                <td class="modelo">Lancer Evolution</td>
+            </tr>
+            <tr>
+                <td class="fabricante">Audi</td>
+                <td class="modelo">TT</td>
+            </tr>
+            <tr>
+                <td class="fabricante">Nissan</td>
+                <td class="modelo">240SX</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <section>
+        <h2>Título 2</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Suscipit, quam, rem architecto harum asperiores nemo
+            enim ex earum tempore, dicta adipisci minima eius illum
+            molestiae nostrum repudiandae obcaecati aperiam similique?
+        </p>
+    </section>    
+
+</body>
+</html>

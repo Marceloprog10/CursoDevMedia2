@@ -1,0 +1,50 @@
+h1 {
+    font-family: Courier New, Courier, monospace;
+}
+
+p {     
+    /*Tamanho da fonte*/
+    font-size: 16px;
+    
+    /*Estilo da fonte negrito*/
+    font-style: bold;
+
+    /*Alinhamento*/
+    text-align: center; 
+    
+    /*Tranformar a primeira letra de cada palavre em Maiuscula*/
+    text-transform: capitalize; 
+        
+    /*Sombra das letras*/
+    text-shadow: 2px 4px 5px #eee, 0 0 1px red; 
+    
+    /*Espaçamento entre as linhas*/
+    font-size: 14px; line-height: 1.6em; 
+
+    /*Espaçamento entre os caracteres*/
+    letter-spacing: 2px; word-spacing: 4px;
+}
+span { 
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.botao {
+  display: inline-block;
+  height: 50px;
+  padding: 2px 10px;
+  font-family: Roboto;
+  text-decoration: none;
+  line-height: 50px;
+  background-color: rgba(52, 152, 219, 0.9);
+  color: #ffffff;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.botao:hover{
+  background-color: rgba(52, 152, 219, 1.0);
+  box-shadow: 0px 0px 10px gray;
+}
+

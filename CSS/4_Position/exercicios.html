@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercicios</title>
+        <style>
+
+            button{
+                margin-bottom: 4px;
+                border: 1px solid #000;
+                background: #aa0000;
+                color: #fff;
+            }
+
+
+            #elemento-pai {
+                background-color: #818181;
+            }
+
+            .elementos-filho {
+                background-color: #aa0000;
+                bottom: 10px;
+                height: 100px;
+                position: relative;
+                left: 20px;
+                width: 400px;
+                margin-left: 4xp; 
+                             
+            }   
+
+            .banner {
+                background-color: #2d18e7;
+                height: 100px;
+                left: 15px;
+                position: absolute;
+                top: 200px;
+                width: 400px;
+                padding: 2px;
+                
+            }
+
+            .mensagem {                               
+                background-color: #00ff00;    
+                border: 1px solid #00aa00;
+                border-radius: 4px;
+                padding: 4px;
+            }
+            .mensagem p {
+                margin: 0px;
+                padding: 0px;
+                position: fixed;
+                top: 20px;
+
+            }  
+
+            ol li {
+                float: left;
+            }
+                              
+           
+
+        </style>
+    </head>
+    <body> 
+
+
+        <div class="mensagem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate molestias, accusamus modi omnis nulla
+                dignissimos, voluptatem a culpa autem laboriosam beatae est nesciunt nostrum mollitia eum commodi veritatis
+                ipsum cum.</p>
+        </div>
+
+        <button>Salvar</button>
+
+        <div id="elemento-pai">
+            <div class="elementos-filho">
+            </div>
+
+            <div class="banner">
+            </div>
+        </div>
+
+        <ol>        
+          <li>linha1</li>
+          <li>linha2</li>
+        </ol>
+    </body>
+</html>

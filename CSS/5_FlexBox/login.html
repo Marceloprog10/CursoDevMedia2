@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+
+	<style>
+		.body {
+			margin: 0px;
+		}
+
+		.container {
+			width: 100vw;
+			height: 100vh;
+			background-color: #6c7a89;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;			
+		}
+
+		.box {
+			width: 280px;
+			height: 300px;
+			background-color: #fff;
+
+			border-top: 10px;
+			border-top-style: solid;
+			border-top-color: #008080;
+
+		}
+
+		#LblLogin {
+			font-size: 25px;
+			text-align: center;
+			font-family: sans-serif;
+			font-weight: bold;
+		}
+
+		input {
+			width: 95%;
+			height: 40px;			
+			margin: 5px;			
+			text-align: center;
+			background-color: rgb(209, 207, 207);
+			border : 10px;			
+		}
+
+		#BtnEnviar {
+			width: 96%;
+			background-color: #008080;
+			color: white;
+			padding: 0px;
+			border: 0px;
+		}
+
+		#LblCriarConta {
+			font-size: 12px;
+			text-align: center;
+			font-family: sans-serif;
+			margin-top: 30px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+
+			<form method="post">				
+                <p id="LblLogin">Login</p>	
+				<div class="ContainerLogin">
+                        
+					<input type="text" name="EdtLogin" placeholder="Informe seu login">
+
+					<input type="password" name="EdtSenha" placeholder="Informe sua senha">								
+					<input id="BtnEnviar" type="submit" name="BtnEnviar" value="Entrar">	
+
+				</div>
+				<p id="LblCriarConta">Não é registrado? <a href="">Criar uma conta.</a></p>
+			</form>
+
+		</div>		
+	</div>
+</body>
+</html>

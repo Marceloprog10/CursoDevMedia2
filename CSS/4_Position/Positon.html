@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+        h3{
+            float: left;
+            width: 200px;
+        }
+
+ul{
+            float: right;
+            width: 200px;
+        }
+        
+
+        #divIngredientes{
+            border: 1px solid #000;
+            overflow: auto;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        
+        
+        .relative-parent{
+            background: #156236;
+        }
+
+        .relative{
+            background: #af8542;
+            --height: 100px;
+            width: 300px;
+            --position: relative;
+            top: 20px;
+            left: 45px;
+        }
+
+        .absolute{
+            background: #c590f5;
+            height: 100px;
+            width: 120px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .fixed {
+            background: #a4c467;
+            height: 50px;
+            width: 300px;
+            position: fixed;
+            bottom: 80px;
+            right: 180px;
+            text-align: center;
+        }
+
+    </style> 
+</head>
+
+<body>
+    <h1>Receita de Bolo Simples Caseiro</h1>
+
+    <p>Tem dias que um bolinho <strong>simples</strong> no café da manhã cai super bem! 
+        Então eu vou ensinarcomo fazer<strong>bolo simples caseiro</strong> com a receita 
+        mais fácil do mundo, que é para você fazer em casa usando só ingredientes básicos.
+    </p>
+
+    <div id="divIngredientes">
+        <h3>Ingredientes:</h3>
+
+        <ul>
+            <li>3 xícaras de chá de farinha de trigo (Sem fermento)</li>
+            <li>2 xícaras de chá de açúcar</li>
+            <li>3 ovos</li>
+            <li>200 ml de leite</li>
+            <li>4 colheres sopa de manteiga</li>
+            <li>1 colher de sopa de fermento químico em pó</li>
+        </ul>
+    </div>    
+
+
+    <div class="relative-parent">
+        <div class="relative">
+        Elemento filho com posicionamento relativo
+        </div>
+    </div>
+
+     <div class="absolute">
+        Elemento com posicionamento absoluto
+    </div>  
+    
+    <div class="fixed">
+        Elemento com posicionamento fixo
+    </div>
+
+
+</body>
+
+</html>
