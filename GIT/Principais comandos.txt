@@ -1,0 +1,15 @@
+*Configurar
+git config --global user.name Marcelo_Matos
+git config --global user.email marceloprog10@gmail
+
+*Clonar
+Localizar pasta diretorio
+git clone endereço http da página
+
+
+
+git diff
+Mostra a linha em que houve a alteração.
+
+git diff --staged
+Arquivos que estão comitados mas comparando com o servidor
