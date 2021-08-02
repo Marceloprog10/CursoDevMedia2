@@ -6,10 +6,31 @@ git config --global user.email marceloprog10@gmail
 Localizar pasta diretorio
 git clone endereço http da página
 
+*Branch
+git branch NomeDoBranch
+git checkout -b NomeDoBranch
 
+*Status
+git status
 
+*Commit
+git add .
+git commit -m "descrição do comit"
+
+*Remove arquivos
+rm nomedoarquivo ou * para todos
+git rm --cached NomeDoArquivo
+
+*Push
+git push
+
+*Merge
+git merge NomeDoBranch
+
+*Tag
+git tag NomeDaTag HashCode
+
+*Diff
 git diff
-Mostra a linha em que houve a alteração.
-
 git diff --staged
-Arquivos que estão comitados mas comparando com o servidor
+
