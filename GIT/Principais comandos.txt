@@ -1,3 +1,6 @@
+*Comandos 
+git --help ou git help comando
+
 *Configurar
 git config --global user.name Marcelo_Matos
 git config --global user.email marceloprog10@gmail
@@ -9,6 +12,7 @@ git clone endereço http da página
 *Branch
 git branch NomeDoBranch
 git checkout -b NomeDoBranch
+git chechout -- Nesse caso baixa o conteudo do branch atual como se fosse um revert pois baixa novamente as alterações então mata o que foi alterado.
 
 *Status
 git status
@@ -16,6 +20,8 @@ git status
 *Commit
 git add .
 git commit -m "descrição do comit"
+git commit --amend = Comando usado para alterar a mensagem do ultimo commit
+
 
 *Remove arquivos
 rm nomedoarquivo ou * para todos
