@@ -21,6 +21,7 @@ git status
 git add .
 git commit -m "descrição do comit"
 git commit --amend = Comando usado para alterar a mensagem do ultimo commit
+git reset HEAD NomeDoArquivo Se o arquivo foi adiconado mas quiser remover ele
 
 
 *Remove arquivos
