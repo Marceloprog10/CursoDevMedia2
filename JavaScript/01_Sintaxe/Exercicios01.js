@@ -50,7 +50,7 @@ console.log("O valor da força é de " + forca + "N");
 /*--------------------------------------------------*/
 var preco = 10;
 preco += 20;
-console.log(preco); //30
+console.log(preco);
 /*--------------------------------------------------*/
 console.log( "1" + 1 );
 console.log( 15 % 2 );
@@ -181,13 +181,9 @@ switch(produto) {
 
 /*--------------------------------------------------*/
 idade = 18;
-let resultado = (idade >= 18) ? "Maior de idade" : "Menor de idade";
+let resultado = idade >= 18 ? "Maior de idade" : "Menor de idade";
 console.log(resultado);
-
 /*--------------------------------------------------*/
-let disponivel = true;
-let resultado = disponivel && "Produto disponível";
-
 /*--------------------------------------------------*/
 /*--------------------------------------------------*/
 /*--------------------------------------------------*/
