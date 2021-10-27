@@ -148,7 +148,7 @@ for(let propriedade in carro) {
         let novo_preco = carro[preco] - desconto;
         console.log("novo preço: R$" + novo_preco + ",00");
 
-    } else {
+    } else {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
         console.log(propriedade + ": " + carro[propriedade]);
     }
 }
@@ -189,11 +189,8 @@ let chuvas_de_meteoros = [
     { nome: 'Úrsidas',                      declinacao:  76,  intensidade: 'Média'},
 ];
 
-
 for(let chuva of chuvas_de_meteoros ) {    
     console.log(chuva.nome);
     console.log(chuva.declinacao);
     console.log("\n");
 }
-
-
