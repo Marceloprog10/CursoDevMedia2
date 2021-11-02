@@ -81,7 +81,3 @@ if (!encontrouHabilitado) {
 }
 
 /**********************************************************/
-let idade = 18;
-let resultado; 
-(idade >= 18) ? resultado = "Maior de idade" : resultado = "Menor de idade";
-console.log(resultado);

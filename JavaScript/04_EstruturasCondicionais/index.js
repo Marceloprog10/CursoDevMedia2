@@ -1,65 +1,3 @@
-import entradaDados from 'readline-sync';
-
-/**********************************************************/
-//let nome = entradaDados.question("Digite seu nome: ");
-//console.log("Olá, " + nome);
-
-/**********************************************************/
-//let x = entradaDados.question("valor x ");
-//let y = entradaDados.question("valor y ");
-//let soma = Number(x) + Number(y); 
-//console.log("soma: " + soma);
-
-/**********************************************************/
-
-//console.log("Área do triângulo: \n");
-//let base = entradaDados.question("Informe a base: ");
-//let altura = entradaDados.question("Informe a altura: ");
-//let area = (base * altura) / 2;
-//console.log("A área do triângulo é: " + area);
-
-/**********************************************************/
-//import readline from 'readline-sync';
-
-//let diametro = readline.question('Informe o diâmetro: ');
-//let raio = diametro / 2;
-//console.log(raio);
-
-/**********************************************************/
-//import entrada from 'readline-sync';
-
-//let n1 = entrada.question('Informe o nota 1: ');
-//let n2 = entrada.question('Informe o nota 2: ');
-//let n3 = entrada.question('Informe o nota 3: ');
-//let n4 = entrada.question('Informe o nota 4: ');
-
-//let media = (Number(n1) + Number(n2) + Number(n3) + Number(n4)) / 4;
-//console.log(media);
-/**********************************************************/
-//var notas_bimestre = [7, 6, 8, 7];
-//var total_notas = notas_bimestre.length;
-//var soma_notas = notas_bimestre[0] + notas_bimestre[1] + notas_bimestre[2] + notas_bimestre[3];
-//var media_aluno = (notas_bimestre[0] + notas_bimestre[1] + notas_bimestre[2] + notas_bimestre[3]) / notas_bimestre.length;
-//console.log("Média do aluno: " + media_aluno); // Média do aluno: 6.5
-
-/**********************************************************/
-var Alunos = [
-    {id: 1, nome: "Marcelo", idade: 32},
-    {id: 2, nome: "Pedro", idade: 20},
-    {id: 3, nome: "João", idade: 2}
-];
-
-console.log(Alunos.length);
-
-/**********************************************************/
-//var numero_1 = 10;
-//var numero_2 = 15;
-//console.log(numero_1 != numero_2);
-
-/**********************************************************/
-var dia = new Date;
-var diaDoMes = dia.getDate();
-console.log(diaDoMes);
 
 /**********************************************************/
 console.log();
@@ -194,3 +132,22 @@ for(let chuva of chuvas_de_meteoros ) {
     console.log(chuva.declinacao);
     console.log("\n");
 }
+
+
+let expressao_proibida = "passaporte falso";
+let comentario = "   venda de PASSAPORTE FALSO   ";
+
+comentario = comentario.trim();
+comentario = comentario.toLowerCase();
+
+if ( comentario.indexOf(expressao_proibida) > -1 ){
+
+    console.log("No seu comentário há palavras proibidas. Atualize seu comentário e envie novamente");
+
+} 
+else
+ {
+    console.log("Seu comentário foi aprovado");
+}
+
+console.log(comentario);

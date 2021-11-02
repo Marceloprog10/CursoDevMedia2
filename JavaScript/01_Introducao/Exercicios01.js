@@ -70,7 +70,7 @@ var pessoa = {
 };
 pessoa.cpf = 06997102948;
 pessoa.nome = "Marcelo de Matos";
-console.log(pessoa);
+console.log(pessoa.nome);
 
 /*--------------------------------------------------*/
 function teste(Apessoa) {
@@ -181,11 +181,65 @@ switch(produto) {
 
 /*--------------------------------------------------*/
 idade = 18;
-let resultado = idade >= 18 ? "Maior de idade" : "Menor de idade";
+let resultado = (idade >= 18) ? "Maior de idade" : "Menor de idade";
 console.log(resultado);
 /*--------------------------------------------------*/
+
+
+var curiosidades_chuck_norris = [
+    { titulo: "Cuidados com a higiene bucal",           conteudo: "Chuck Norris usa arame farpado como fio dental."},
+    { titulo: "Fórmula para maratonar séries",          conteudo: "Chuck Norris pode assistir um episódio de 60 minutos em 22 segundos."},
+    { titulo: "Suicida que não morre",                  conteudo: "Chuck Norris foi homem-bomba 34 vezes."},
+    { titulo: "Olhos que tudo veem",                    conteudo: "Chuck Norris já viu o homem invisível."},
+    { titulo: "Manipulando o tempo",                    conteudo: "Chuck Norris não usa relógio. Ele decide que horas são."},
+    { titulo: "Praticando esportes radicais",           conteudo: "Chuck Norris faz bungee jump sem corda."},
+    { titulo: "Não vale chorar",                        conteudo: "Chuck Norris faz cebolas chorarem."},
+    { titulo: "Tempero de fogo",                        conteudo: "Chuck Norris usa pólvora como tempero."},
+    { titulo: "Extinção dos dinossauros",               conteudo: "Chuck Norris encarou os dinossauros uma vez, apenas uma."},
+    { titulo: "Contando sem parar",                     conteudo: "Chuck Norris contou até o infinito. Duas vezes."}
+];
+
+var tamanho_colecao = curiosidades_chuck_norris.length;
+var numero_sorteado = Math.floor(Math.random() * tamanho_colecao);
+var curiosidade_escolhida = curiosidades_chuck_norris[numero_sorteado];
+var titulo_curiosidade = curiosidade_escolhida.titulo;
+var conteudo_curiosidade = curiosidade_escolhida.conteudo;
+
+console.log("CURIOSIDADE SOBRE CHUCK NORRIS");
+console.log("Título: " + titulo_curiosidade);
+console.log("Conteúdo: " + conteudo_curiosidade);
+
 /*--------------------------------------------------*/
+
+var curiosidades_pokemon = [
+    { pokemon: "Kabuto",        curiosidade: "Pokémon regenerado a partir de um fóssil" },
+    { pokemon: "Electabuzz",    curiosidade: "Possui seis dedos em cada mão" },
+    { pokemon: "Ekans",         curiosidade: "Seu nome ao contrário significa cobra em inglês" },
+    { pokemon: "Dragonite",     curiosidade: "Pode voar duas vezes a velocidade do som" },
+    { pokemon: "Magikarp",      curiosidade: "Pula montanhas facilmente" },
+    { pokemon: "Taillow",       curiosidade: "Voa mais de 180 milhas por dia" },
+    { pokemon: "Muk",           curiosidade: "Uma gota desse pokémon pode poluir um lago inteiro" },
+    { pokemon: "Slowbro",       curiosidade: "Único pokémon que pode voltar a evolução anterior" },
+    { pokemon: "Zapdos",        curiosidade: "Tem maior vantagem de tipo entre os pássaros lendários" },
+    { pokemon: "Spoink",        curiosidade: "Esse pokémon nunca para de pular" }
+];
+
+var tamanho_colecao = curiosidades_pokemon.length;
+var numero_sorteado = Math.floor(Math.random() * tamanho_colecao);
+var pokemon_escolhido = curiosidades_pokemon[numero_sorteado];
+var nome_pokemon = pokemon_escolhido.pokemon;
+var curiosidade_pokemon = pokemon_escolhido.curiosidade;
+
+console.log("CURIOSIDADE SOBRE O UNIVERSO POKÉMON");
+console.log("Pokémon: " + nome_pokemon);
+console.log("Curiosidade: "+ curiosidade_pokemon);
 /*--------------------------------------------------*/
+let produto6 = "Geladeira";
+let retorno6 = "";
+
+retorno6 = (produto6 == "Geladeira") ? "desconto" : "normal";
+console.log(retorno6);
+
 /*--------------------------------------------------*/
 /*--------------------------------------------------*/
 /*--------------------------------------------------*/
