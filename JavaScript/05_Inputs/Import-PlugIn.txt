@@ -1,0 +1,25 @@
+IMPUT
+Esse recurso não é nativo do pront, por isso precisa ser instalado um plugin readline-sync
+
+1º 
+Necessário criar uma pasta de diretório onde ser instado esse plugin.
+Abra o diretório no pront e digite o comando sem as aspas "npm init -y"
+O -y é para ignorar um questionamento feito pelo npm
+
+2º
+Um arquivo chamado "packege.json" será criado na pasta de diretório.
+
+3º
+Novamente no terminal execute sem as aspas "readline-sync"
+
+4º
+Edite o arquivo "packege.json" incluindo com as aspas "type":"module",
+
+
+OBS: Para utilizar caractres ACENTUADOS
+O windows possui uma limitação onde não exibe corretamente alguns caracteres, 
+não é problema do readline-sync e sim do windows, para corrigir basta executar
+o comando sem as aspas no pront "chcp 65001" 
+
+
+
