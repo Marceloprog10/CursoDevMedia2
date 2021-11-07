@@ -75,9 +75,54 @@ let index4 = 0;
 do {
   console.log( primeiroAcerto.toDateString() );
 
-  let dia = primeiroAcerto.getDate();
-  dia++;
-  primeiroAcerto.setDate(dia);
+  const dia = primeiroAcerto.getDate();
+  primeiroAcerto.setDate(dia + 1);
 
   index4++;
 } while (index4 < totalAcertos);
+
+/*-----------------------------------------------*/
+const hoje6 = new Date();
+const ano6 = hoje6.getFullYear();
+
+if ( ano6 % 4 == 0 ) {
+  console.log( 'Ano bissexto' );
+} else {
+  console.log( 'Não é ano bissexto' );
+}
+
+/*-----------------------------------------------*/
+const convidados = [
+  { nome: 'José', cerveja: false},
+  { nome: 'Augusto', cerveja: true},
+  { nome: 'Tomas', cerveja: true},
+  { nome: 'Joana', cerveja: false},
+  { nome: 'Aline', cerveja: false},
+];
+
+let totalDeConvidados = convidados.length;
+let bebemRefrigerante = 0;
+let bebemCerveja = 0;
+
+for ( const convidado of convidados) {
+  if (convidado.cerveja == true) {
+    bebemCerveja++;
+  } else {
+    bebemRefrigerante++;
+  }
+}
+
+console.log('Total de convidados: ' + totalDeConvidados);
+console.log('Bebem cerveja: ' + bebemCerveja);
+console.log('Bebem refrigerante: ' + bebemRefrigerante);
+
+/*-----------------------------------------------*/
+const 
+hoje7 = new Date();
+//getUTCMinutes
+//getTimezoneOffset
+//getMinutes
+//getTime
+const diferencaHoras7 = hoje7.getTime() / 60;
+
+console.log('Diferença de horário: ' + diferencaHoras7 + ' horas');
