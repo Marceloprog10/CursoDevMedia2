@@ -226,3 +226,15 @@ const chuvaDeMeteoros = [
  
   console.log("\nChuvas no hemisfério Sul:");
   chuvasNoSul.forEach( imprimirChuva );
+
+/*--------------------------*/
+
+let listaJogos = [];
+
+listaJogos.push("Super Mario World");
+listaJogos.push("The Last of Us");
+listaJogos.push("Gears of War");
+
+listaJogos.forEach(function(jogo){
+	console.log(jogo);
+});
