@@ -5,9 +5,17 @@ listaJogos.push("Super Mario World");
 listaJogos.push("The Last of Us");
 listaJogos.push("Gears of War");
 
+//da forma como respondi
 listaJogos.forEach(function(jogo){
 	console.log(jogo);
 });
+
+//De outra forma como fazer usando "arrow function"
+listaJogos.push("Teste Marcelo");
+listaJogos.forEach(jogo =>{
+    console.log(jogo);
+})
+
 
 /*******************************************************/
 let linguagem = "JavaScript";
