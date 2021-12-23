@@ -1,4 +1,5 @@
 
+
 let listaJogos = [];
 
 listaJogos.push("Super Mario World");
@@ -142,3 +143,35 @@ let nomesAlunos = retornaNomesAlunos(alunosMaiores);
 imprimeNomesAlunos(nomesAlunos);
 
 /***********************************************/
+import {converteCentimetroParaMetro, converteMetroParaCentimetro, converteMetroParaQuilometro} from './conversorMedidas.js';
+console.log('\n');
+console.log('converter');
+
+console.log(converteCentimetroParaMetro(600));
+console.log(converteMetroParaCentimetro(700));
+console.log(converteMetroParaQuilometro(800));
+
+/***********************************************/
+
+let livros = [
+    {titulo: 'Tenki no ko', autor: 'Makoto Shinkai'},
+    {titulo: 'Toradora', autor: 'Yuyuko Takemia'},
+    {titulo: 'Kimi no na wa', autor: 'Makoto Shinkai'},
+    {titulo: 'A silent voice', autor: 'Yoshitoki Oima'},
+    {titulo: '5 Centímetros por segundo', autor: 'Makoto Shinkai'}
+];
+export default livros;
+
+function verificaAutor(livro){ 
+    return livro.autor == 'Makoto Shinkai';
+}
+export default verificaAutor;
+
+import livros from './dadosLivros.js';
+import verificaAutor from './filtraAutor.js';
+
+let livrosMakotoShinkai = livros.filter(verificaAutor);
+livrosMakotoShinkai.forEach(livro => {
+    console.log(livro.titulo);
+});
+
