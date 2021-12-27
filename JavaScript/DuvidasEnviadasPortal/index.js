@@ -142,16 +142,15 @@ let alunosMaiores = filtraAlunosMaiores(alunos);
 let nomesAlunos = retornaNomesAlunos(alunosMaiores);
 imprimeNomesAlunos(nomesAlunos);
 
-/***********************************************/
+/**********************************************/
 import {converteCentimetroParaMetro, converteMetroParaCentimetro, converteMetroParaQuilometro} from './conversorMedidas.js';
 console.log('\n');
 console.log('converter');
-
 console.log(converteCentimetroParaMetro(600));
 console.log(converteMetroParaCentimetro(700));
 console.log(converteMetroParaQuilometro(800));
 
-/***********************************************/
+/**********************************************/
 
 let livros = [
     {titulo: 'Tenki no ko', autor: 'Makoto Shinkai'},
@@ -174,4 +173,8 @@ let livrosMakotoShinkai = livros.filter(verificaAutor);
 livrosMakotoShinkai.forEach(livro => {
     console.log(livro.titulo);
 });
+
+
+
+
 
