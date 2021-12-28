@@ -12,7 +12,7 @@ const verificaMaiorIdade1 = (idade) => {
 //console.log(verificaMaiorIdade(10));
 
 const verificaMaiorIdade = (idade) => {
-    var resultado = (idade > 18) ? 'Maior de idade' : 'Menor de idade';
+    let resultado = (idade > 18) ? 'Maior de idade' : 'Menor de idade';
     return  resultado;
 }
 export default verificaMaiorIdade
