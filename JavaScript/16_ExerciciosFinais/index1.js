@@ -115,3 +115,10 @@ const livros = [
   return ( dataLimite );
 }
 console.log(retornaDataLimite(new Date()));
+
+
+/*******************************************************/
+//console.log('\n');
+//const totalItensEstoque = produtos.reduce( (total, produto) => {
+//  return total + produto.estoque;
+//}, 0);
