@@ -20,18 +20,19 @@ console.log(primeiroNome + ' ' + ultimoNome);
 
 /********************************************************/
 console.log('\n');
+console.log('produtos marcelo');
 
-/*const produtos = [
+const produtos = [
     { nome: 'Xbox 360', valor: 2000 , estoque: 20 },
     { nome: 'Nintendo Switch', valor: 4000, estoque: 15 },
     { nome: 'PS5', valor: 4500, estoque: 10 },
   ];
   
-const totalItensEstoque =  ( (total, produto) => {
+const totalItensEstoque =  produtos.reduce( (total, produto) => {
     return total + produto.estoque;
 }, 0);
   
-console.log(produtos.reduce(totalItensEstoque, 0));*/
+console.log(totalItensEstoque);
 
 
 //const somarValorProduto = (total, produto) => {
@@ -122,3 +123,9 @@ console.log(retornaDataLimite(new Date()));
 //const totalItensEstoque = produtos.reduce( (total, produto) => {
 //  return total + produto.estoque;
 //}, 0);
+
+//const retornaDataLimite = (data) => {
+//  const dataLimite = new Date(data);
+//  dataLimite.setMonth(dataLimite.getMonth() + 2);
+//  return ( dataLimite );
+//}
