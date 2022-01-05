@@ -18,40 +18,6 @@ const ultimoNome = nomeDividido[totalPalavras -1];
 
 console.log(primeiroNome + ' ' + ultimoNome);
 
-/********************************************************/
-console.log('\n');
-
-/*const produtos = [
-    { nome: 'Xbox 360', valor: 2000 , estoque: 20 },
-    { nome: 'Nintendo Switch', valor: 4000, estoque: 15 },
-    { nome: 'PS5', valor: 4500, estoque: 10 },
-  ];
-  
-const totalItensEstoque =  ( (total, produto) => {
-    return total + produto.estoque;
-}, 0);
-  
-console.log(produtos.reduce(totalItensEstoque, 0));*/
-
-
-//const somarValorProduto = (total, produto) => {
-//  const valorEstoque = produto.estoque * produto.valor;
-//  return total + valorEstoque;
-//}
-//const valorEstoque = produtos.________(somarValorProduto, 0);
-//console.log(valorEstoque);
-
-/*******************************************************
-console.log('\n');
-
-const dataHoje = new Date();
-const validade = new Date();
-
-const mesAtual = dataHoje.getMonth();
-validade.setMonth(mesAtual + 6);
-
-console.log(validade.parse());*/
-
 /*******************************************************/
 console.log('\n');
 const validaCampo = (campo) => {
@@ -116,9 +82,39 @@ const livros = [
 }
 console.log(retornaDataLimite(new Date()));
 
+/******************************************************
+console.log('\n');
+const dataHoje = new Date();
+const validade = new Date();
+
+const mesAtual = dataHoje.getMonth();
+validade.setMonth( mesAtual + 6 );
+
+console.log(validade.toLocaleDateString());
+
+******************************************************/
+console.log('\n');
+const inverteMesDia = (mesDia) => {
+  const dataInvertida = mesDia.split('/');  
+  return  dataInvertida[1] + '/' + dataInvertida[0];
+}
+
+let dia = new Date();
+
+console.log(inverteMesDia(dia.toLocaleDateString()));
 
 /*******************************************************/
-//console.log('\n');
-//const totalItensEstoque = produtos.reduce( (total, produto) => {
-//  return total + produto.estoque;
-//}, 0);
+console.log('\n');
+console.log('\n');
+const dataHoje = new Date();
+const validade = new Date();
+
+const mesAtual = dataHoje.getMonth();
+validade.setMonth( mesAtual + 6 );
+
+const options = {
+  dataStyle : "short"//, 
+  //dataStyle: "long"-- nao identifiquei o que utilizar aqui
+};
+
+console.log(validade.toLocaleString('pt-br', options));
