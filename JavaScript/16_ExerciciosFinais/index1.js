@@ -113,8 +113,8 @@ const mesAtual = dataHoje.getMonth();
 validade.setMonth( mesAtual + 6 );
 
 const options = {
-  dataStyle : "short"//, 
-  //dataStyle: "long"-- nao identifiquei o que utilizar aqui
+  dataStyle : "short", 
+  timeStyle: "long"
 };
 
 console.log(validade.toLocaleString('pt-br', options));
