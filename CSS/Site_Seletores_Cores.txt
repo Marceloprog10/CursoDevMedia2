@@ -1,0 +1,4 @@
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Colors/Color_picker_tool
+
+
+https://imagecolorpicker.com/

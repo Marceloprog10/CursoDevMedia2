@@ -1,0 +1,40 @@
+h1 {
+    font-size: 48px;
+    font-family: 'Verdana';
+    text-decoration: underline;
+    text-align: center;
+    color: blue;
+    background-color: red;
+}
+
+p {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 48px;
+}
+
+a {
+  font-size: 28px;
+  text-decoration: none;
+  
+  font-family: Impact;
+  font-weight:  normal;
+  background-color: rgb(244,253,17);
+  color: white;
+
+}
+
+#sino {
+  background-color: #aa0000;
+  height: 20px;
+  width: 20px;
+}
+
+.notificacoes {
+  background-color: #818181;
+  height: 20px;
+  margin-left: 15px;
+  padding : 2px;
+  width: 20px;
+}
